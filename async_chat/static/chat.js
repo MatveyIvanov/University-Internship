@@ -41,6 +41,7 @@ const sendMessage = () => {
             }
         }));
     }
+    document.querySelector('#message_input').value = '';
 }
 
 const authToChat = () => {
